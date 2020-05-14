@@ -1,0 +1,38 @@
+<!-- This is the Meme Generator Assessment for the Springboard Software
+ Engineering Bootcamp as completed by Jason Cox.  Started May 6, 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meme Generator</title>
+        <script src="MemeGen.js"></script>
+        <link rel="stylesheet" href="MemeGen.css">
+    </head>
+    <body>
+        <h1>
+            <span class="title-letter">M</span>
+            <span class="title-letter">E</span>
+            <span class="title-letter">M</span>
+            <span class="title-letter">E</span>
+            &nbsp;
+            <span class="title-letter">M</span>
+            <span class="title-letter">A</span>
+            <span class="title-letter">K</span>
+            <span class="title-letter">E</span>
+            <span class="title-letter" id = "last">R</span>
+        </h1>
+        <form action="" id="meme-maker">
+            <label for="image-path" class="meme-input-label">Image Path: </label>
+            <input type="text" name="image-path" class="meme-input"><br>
+            <label for="upper-text" class="meme-input-label">Upper Text: </label>
+            <input type="text" name="upper-text"class="meme-input" maxlength="60"><br>
+            <label for="lower-text" class="meme-input-label">Lower Text: </label>
+            <input type="text" name="lower-text"class="meme-input" maxlength="60"><br>
+            <input type="submit" class="meme-button">
+        </form>
+        <div id="meme-container"></div>   
+    </body>
+</html>
+
